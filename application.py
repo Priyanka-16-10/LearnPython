@@ -107,5 +107,6 @@ print(formSent2)
 #IMMUTABLE STRINGS(can't be changed)
 my_var = "abcdefg"
 # my_var[0] = "u"
-# print(my_var) it can
+# print(my_var) it can't change the string directly instead of this follow the bellow step
+print("u"+my_var[1:])
 
